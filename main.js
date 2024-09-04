@@ -1,1 +1,2 @@
-console.log("1.1.0");
+const version = require("./package.json").version;
+console.log(`Version: ${version}`);
